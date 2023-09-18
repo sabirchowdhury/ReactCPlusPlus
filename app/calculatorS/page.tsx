@@ -1,22 +1,5 @@
 import CalculatorButton, { ButtonType } from "./_components/calculatorButton";
 
-enum ButtonColours {
-  "Gray",
-  "Orange",
-  "DarkGray",
-}
-
-enum ButtonSize {
-  "Single",
-  "Double",
-}
-
-type TCalculatorSymbols = {
-  name: String;
-  colour: ButtonColours;
-  size: ButtonSize;
-};
-
 const functions = ["C", "±", "%"];
 const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3];
 const operations = ["÷", "x", "+", "-", "="];
