@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[#1c1c1c]">
       <div className="calculatorMainBody">
-        <div className="calculatorScreen flex justify-end text-7xl text-white font-light">
-          300
+        <div className="calculatorScreen flex justify-end p-4 text-8xl text-white font-light">
+          12,345
         </div>
         <div className="flex">
           <div className="calcFuncs grid grid-cols-3">
